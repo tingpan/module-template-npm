@@ -1,37 +1,43 @@
 gulp = require 'gulp'
 runSequence = require 'run-sequence'
 path = require 'path'
-helper = require './helper.coffee'
-
+coffeelint = require './helpers/coffeelint'
+coffee = require './helpers/coffee'
+sass = require './helpers/sass'
+removeDir = require './helpers/remove-dir'
+data = require './helpers/data'
+jade = require './helpers/jade'
+rename = require './helpers/rename'
 
 gulp.task 'docs.clean', ->
-  helper.removeDir '_docs'
+  removeDir '_docs'
 
 gulp.task 'docs.jade', ->
   gulp.src(['docs/**/*.jade', '!docs/layouts/**/*.jade'])
-    .pipe helper.data (file) ->
-      pkg: require '../package.json'
+    .pipe data (file) ->
+      pkg: require '../package'
       navItems: require '../docs/data/nav.json'
       filename: path.basename(file.path, '.jade')
-    .pipe helper.jade()
-    .pipe helper.rename
+    .pipe jade()
+    .pipe rename
       dirname: ''
       extname: '.html'
     .pipe gulp.dest '_docs'
 
 gulp.task 'docs.coffee', ->
   gulp.src 'docs/**/*.coffee'
-    .pipe helper.coffee()
+    .pipe coffeelint()
+    .pipe coffee()
     .pipe gulp.dest('_docs/')
 
 gulp.task 'docs.sass', ->
   gulp.src 'docs/**/*.scss'
-    .pipe helper.sass()
+    .pipe sass()
     .pipe gulp.dest('_docs/')
 
-gulp.task 'docs', ->
+gulp.task 'docs', (done) ->
   runSequence 'docs.clean', [
     'docs.jade',
     'docs.coffee',
-    'docs.sass'
-  ]
+    'docs.sass',
+  ], done

@@ -1,14 +1,8 @@
 gulp = require 'gulp'
-path = require 'path'
-Jasmine = require 'jasmine'
-helper = require './helper.coffee'
+coffeelint = require './helpers/coffeelint'
+mocha = require './helpers/mocha'
 
 gulp.task 'test', ->
-  specFile = 'test/Test.coffee'
-  fileId = require.resolve path.resolve(specFile)
-  helper.deleteRequireCache fileId
-
-  jasmine = new Jasmine()
-  jasmine.onComplete (passed) ->
-    # do nothing
-  jasmine.execute [specFile]
+  gulp.src 'test/**/*.coffee'
+    .pipe coffeelint()
+    .pipe mocha()
