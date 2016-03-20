@@ -7,3 +7,4 @@ coverage
 .token.json
 
 .DS_Store
+.idea
