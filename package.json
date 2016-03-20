@@ -1,20 +1,20 @@
 {
   "name": "Test",
-  "githubUser": "tingpan",
+  "githubUser": "Test",
   "version": "0.0.1",
   "description": "Test",
-  "homepage": "http://tingpan.github.io/Test",
+  "homepage": "http://Test.github.io/Test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tingpan/Test.git"
+    "url": "https://github.com/Test/Test.git"
   },
   "author": {
-    "name": "tingpan",
-    "email": "tingpan666@gmail.com"
+    "name": "Test",
+    "email": "Test"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tingpan/Test/issues"
+    "url": "https://github.com/Test/Test/issues"
   },
   "main": "dist/Test.js",
   "scripts": {

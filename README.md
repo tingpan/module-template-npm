@@ -1,10 +1,10 @@
 # Test
 
 [![Latest Version](https://img.shields.io/npm/v/Test.svg)](https://www.npmjs.com/package/Test)
-[![Build Status](https://img.shields.io/travis/tingpan/Test.svg)](https://travis-ci.org/tingpan/Test)
-[![David](https://img.shields.io/david/tingpan/Test.svg)](https://david-dm.org/tingpan/Test)
-[![David](https://img.shields.io/david/dev/tingpan/Test.svg)](https://david-dm.org/tingpan/Test#info=devDependencies)
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/tingpan/Test)
+[![Build Status](https://img.shields.io/travis/Test/Test.svg)](https://travis-ci.org/Test/Test)
+[![David](https://img.shields.io/david/Test/Test.svg)](https://david-dm.org/Test/Test)
+[![David](https://img.shields.io/david/dev/Test/Test.svg)](https://david-dm.org/Test/Test#info=devDependencies)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/Test/Test)
 
 Test.
 
@@ -24,9 +24,9 @@ bower install --save Test
 
 ## Submitting Issues
 
-If have issues while using this module, please consider discussing it on [Gitter channel](https://gitter.im/tingpan/Test) first.
+If have issues while using this module, please consider discussing it on [Gitter channel](https://gitter.im/Test/Test) first.
 
-If you confirm the issue is indeed a bug, you can browse the [issues page](https://github.com/tingpan/Test/issues) for existing issues describing the same problem.
+If you confirm the issue is indeed a bug, you can browse the [issues page](https://github.com/Test/Test/issues) for existing issues describing the same problem.
 
 If you found nothing on issues page, please create an new issue with detailed debug information, for example, reproduce procedure, error stacks, screenshots etc. Issues without enough debug information will probably be closed.
 
@@ -35,7 +35,7 @@ If you found nothing on issues page, please create an new issue with detailed de
 Clone repository from github:
 
 ```bash
-git clone https://github.com/tingpan/Test.git
+git clone https://github.com/Test/Test.git
 ```
 
 Install npm dependencies:

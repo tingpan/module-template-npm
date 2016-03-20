@@ -1,7 +1,7 @@
 {
   "name": "Test",
   "version": "0.0.1",
-  "homepage": "https://github.com/tingpan/Test",
+  "homepage": "https://github.com/Test/Test",
   "description": "Test",
   "main": "dist/Test.js",
   "license": "MIT",
