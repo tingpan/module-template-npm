@@ -1,0 +1,19 @@
+{
+  "name": "test_module_npm",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tingpan/test_module_npm",
+  "description": "test",
+  "main": "dist/test_module_npm.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "test",
+    "build",
+    "gulpfile.coffee",
+    "package.json"
+  ],
+  "dependencies": {
+    "simple-module": "^3.0.1",
+    "lodash": "^4.5.1"
+  }
+}
