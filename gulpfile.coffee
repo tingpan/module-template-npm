@@ -2,6 +2,8 @@ require './build/compile.coffee'
 require './build/test.coffee'
 require './build/docs.coffee'
 require './build/publish.coffee'
+require './build/server.coffee'
+
 gulp = require 'gulp'
 runSequence = require 'run-sequence'
 coffeelint = require './build/helpers/coffeelint.coffee'
@@ -11,7 +13,7 @@ gulp.task 'build.lint', ->
     .pipe coffeelint()
 
 gulp.task 'default', ->
-  runSequence 'build.lint', 'compile', 'test', 'docs', ->
+  runSequence 'build.lint', 'compile', 'test', 'docs', 'server', ->
     gulp.watch 'build/**/*.coffee', ['build.lint']
 
     gulp.watch 'src/**/*.coffee', ['compile.coffee', 'test']
