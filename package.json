@@ -1,28 +1,8 @@
 {
-<<<<<<< HEAD
-  "name": "Test",
-  "githubUser": "Test",
-  "version": "0.0.1",
-  "description": "Test",
-  "homepage": "http://Test.github.io/Test",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Test/Test.git"
-  },
-  "author": {
-    "name": "Test",
-    "email": "Test"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Test/Test/issues"
-  },
-  "main": "dist/Test.js",
-=======
   "name": "test_module_npm",
   "githubUser": "tingpan",
   "version": "0.0.1",
-  "description": "test",
+  "description": "test_module_npm",
   "homepage": "http://tingpan.github.io/test_module_npm",
   "repository": {
     "type": "git",
@@ -37,20 +17,13 @@
     "url": "https://github.com/tingpan/test_module_npm/issues"
   },
   "main": "dist/test_module_npm.js",
->>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
   "scripts": {
     "start": "gulp",
     "test": "gulp test"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "express": "^4.13.4",
-    "lodash": "^4.5.1",
-    "simple-module": "^3.0.1"
-=======
     "simple-module": "^3.0.1",
     "lodash": "^4.5.1"
->>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -71,8 +44,4 @@
     "through2": "^2.0.1",
     "uglify-js": "^2.6.2"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86

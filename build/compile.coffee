@@ -49,5 +49,6 @@ gulp.task 'compile', (done) ->
     'compile.version',
     'compile.coffee',
     'compile.uglify',
+  
     done
   )

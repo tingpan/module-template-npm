@@ -6,11 +6,7 @@
   "name": "API Reference"
 }, {
   "name": "Source Code",
-<<<<<<< HEAD
-  "url": "https://github.com/Test/Test"
-=======
   "url": "https://github.com/tingpan/test_module_npm"
->>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
 }, {
   "slug": "license",
   "name": "License"
