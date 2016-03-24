@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Test
 
 [![Latest Version](https://img.shields.io/npm/v/Test.svg)](https://www.npmjs.com/package/Test)
@@ -9,26 +10,53 @@
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/Test/Test)
 
 Test.
+=======
+# Testmodulenpm
+
+[![Latest Version](https://img.shields.io/npm/v/test_module_npm.svg)](https://www.npmjs.com/package/test_module_npm)
+[![Build Status](https://img.shields.io/travis/tingpan/test_module_npm.svg)](https://travis-ci.org/tingpan/test_module_npm)
+[![Coveralls](https://img.shields.io/coveralls/tingpan/test_module_npm.svg)](https://coveralls.io/github/tingpan/test_module_npm)
+[![Code Climate](https://img.shields.io/codeclimate/github/tingpan/test_module_npm.svg)](https://codeclimate.com/github/tingpan/test_module_npm)
+[![David](https://img.shields.io/david/tingpan/test_module_npm.svg)](https://david-dm.org/tingpan/test_module_npm)
+[![David](https://img.shields.io/david/dev/tingpan/test_module_npm.svg)](https://david-dm.org/tingpan/test_module_npm#info=devDependencies)
+[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/tingpan/test_module_npm)
+
+test.
+>>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
 
 ## Installation
 
 Install via npm:
 
 ```bash
+<<<<<<< HEAD
 npm install --save Test
+=======
+npm install --save test_module_npm
+>>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
 ```
 
 Install via bower:
 
 ```bash
+<<<<<<< HEAD
 bower install --save Test
+=======
+bower install --save test_module_npm
+>>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
 ```
 
 ## Submitting Issues
 
+<<<<<<< HEAD
 If have issues while using this module, please consider discussing it on [Gitter channel](https://gitter.im/Test/Test) first.
 
 If you confirm the issue is indeed a bug, you can browse the [issues page](https://github.com/Test/Test/issues) for existing issues describing the same problem.
+=======
+If have issues while using this module, please consider discussing it on [Gitter channel](https://gitter.im/tingpan/test_module_npm) first.
+
+If you confirm the issue is indeed a bug, you can browse the [issues page](https://github.com/tingpan/test_module_npm/issues) for existing issues describing the same problem.
+>>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
 
 If you found nothing on issues page, please create an new issue with detailed debug information, for example, reproduce procedure, error stacks, screenshots etc. Issues without enough debug information will probably be closed.
 
@@ -37,7 +65,11 @@ If you found nothing on issues page, please create an new issue with detailed de
 Clone repository from github:
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/Test/Test.git
+=======
+git clone https://github.com/tingpan/test_module_npm.git
+>>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
 ```
 
 Install npm dependencies:

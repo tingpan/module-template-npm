@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "Test",
   "version": "0.0.1",
   "homepage": "https://github.com/Test/Test",
   "description": "Test",
   "main": "dist/Test.js",
+=======
+  "name": "test_module_npm",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tingpan/test_module_npm",
+  "description": "test",
+  "main": "dist/test_module_npm.js",
+>>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -16,4 +24,8 @@
     "simple-module": "^3.0.1",
     "lodash": "^4.5.1"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5d011c62b029e376b2589bbb814a78aa79c31a86
